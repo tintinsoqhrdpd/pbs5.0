@@ -1,3 +1,4 @@
+// Trigger Cloudflare deployment
 const DEFAULT_HOUSEMATES = [
   { id: "1", name: "Florie", letter: "A" },
   { id: "2", name: "Karylle", letter: "B" },
