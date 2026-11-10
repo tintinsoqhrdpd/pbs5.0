@@ -1,0 +1,13 @@
+name = "pbb-gen11-voting"
+main = "worker.js"
+compatibility_date = "2026-11-10"
+
+[[d1_databases]]
+binding = "DB"
+database_name = "pbb-gen11-voting"
+database_id = "a2692574-b52f-4399-aa8c-42ccd4dc5af7"
+
+[assets]
+directory = "."
+binding = "ASSETS"
+run_worker_first = ["/api/*"]
